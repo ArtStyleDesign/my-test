@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+
+
+.container-1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(132, 151, 183);
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border: 5px solid rgb(230, 163, 86);
+  border-radius: 5px;
+  box-shadow: 8px 0px 5px #636363;
+}
+.text-1 {
+
+  margin-left: 100px;
+}
+
+.belka {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+
+
+}
+
+.img_belka{
+  width: 100%;
+  transition: 1s;
+  
+}
+
+.container-1:hover .img_belka {
+  transform: scale(1.4);
+  opacity: .5;
+}
+.container-1:hover{
+  background-color: rgba(0, 0, 0, 0.546);
+  transition: .3s;
+}
+
+
+.container-2 {
+  margin-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(83, 188, 49);
+  width: 800px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items:center;
+  border: 5px solid rgb(230, 163, 86);
+  border-radius: 5px;
+  box-shadow: 8px 0px 5px #636363;
+
+}
+.text-2 {
+
+  margin-right: 100px;
+}
+
+.carrot {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 0 10px 10px 0;
+
+
+}
+
+.img_carrot {
+  width: 100%;
+  transition: 1s;
+  
+}
+
+.container-2:hover .img_carrot {
+  transform: scale(1.4);
+  opacity: .5;
+}
+.container-2:hover{
+  background-color: rgba(0, 0, 0, 0.546);
+  transition: .3s;
+}
+
+
+.container-3 {
+  margin-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(231, 165, 66);
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border: 5px solid rgb(230, 163, 86);
+  border-radius: 5px;
+  box-shadow: 8px 0px 5px #636363;
+}
+.text-3 {
+
+  margin-left: 100px;
+}
+
+.sobaka {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+
+
+}
+
+.img_spbaka{
+  width: 100%;
+  transition: 1s;
+  
+}
+
+.container-3:hover .img_spbaka {
+  transform: scale(1.4);
+  opacity: .5;
+}
+.container-3:hover{
+  background-color: rgba(0, 0, 0, 0.546);
+  transition: .3s;
+}
